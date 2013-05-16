@@ -74,11 +74,6 @@ public:
 };
 
 
-TreeNode* newtNode(int val) 
-{
-    TreeNode* result = new TreeNode(val);
-    return result;
-}
 void print_tree(TreeNode *root) {
     if(root ==NULL) {
         cout<<"# ";
